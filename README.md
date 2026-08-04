@@ -37,7 +37,7 @@ h1 {
   overflow: hidden;        /* Clips the zoomed image within its rounded borders */
   border-radius: 12px;     /* Keeps the rounded corners intact during zoom */
   margin-bottom: 15px;     /* Space beneath stacked items */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
  }
  .img-wrapper img {
   width: 100%;
