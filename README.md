@@ -28,12 +28,36 @@ h1 {
   padding: 20px 30px;                         /* Spacing inside the card */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);/* Soft background shadow */
 }
+ .image-gallery {
+  /* Set how many columns you want */
+  column-count: 3; 
+  column-gap: 15px; /* Spacing between columns */
+ }
+ .img-wrapper {
+  overflow: hidden;        /* Clips the zoomed image within its rounded borders */
+  border-radius: 12px;     /* Keeps the rounded corners intact during zoom */
+  margin-bottom: 15px;     /* Space beneath stacked items */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+ }
+ .img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Animates scale changes smoothly over 0.4 seconds */
+  transition: transform 0.4s ease, filter 0.4s ease; 
+ }
+    .img-wrapper:hover img {
+  transform: scale(1.08);  /* Zooms in by 8% (adjust scale value as desired) */
+  filter: brightness(1.05); /* Optional: Slightly brightens the image on hover */
+}
   </style>
 </head>
 <body>
   <h1>JUJUTSU KAISEN</h1>
   <div class="image-gallery">
+    <div class="img-wrapper">
   <img src="download (3).jpg" alt="Picture 1">
+    </div>
   </div>
 </body>
 </html>
