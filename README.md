@@ -54,6 +54,7 @@ h1 {
     .hero-slider {
   position: relative;
   width: 100%;
+  max-width: 1200px;
   min-height: 450px;
   overflow: hidden;
   border-radius: 12px;
@@ -62,6 +63,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   width: 100%;
   height: 100%;
 }
@@ -82,7 +84,7 @@ h1 {
   margin-bottom: 25px;
 }
     .hero-image-container {
-  flex: 1.2;
+  flex: 1;
   position: relative;
   height: 100%;
 }
@@ -136,7 +138,10 @@ h1 {
     <button class="arrow-btn" id="nextBtn">&#10095;</button>
     <button class="arrow-btn" id="prevBtn">&#10094;</button>
   </div>
-    <div class="hero-card">
+     </div>
+  </div>
+      <div class="hero-slider">
+        <div class="hero-card">
   <div class="hero-content">
     <h2 class="hero-title">NNN</h2>
     <p class="hero-description">
@@ -149,7 +154,10 @@ h1 {
     <button class="arrow-btn" id="nextBtn">&#10095;</button>
     <button class="arrow-btn" id="prevBtn">&#10094;</button>
   </div>
-    <div class="hero-card">
+  </div>
+    </div>
+      <div class="hero-slider">
+        <div class="hero-card">
   <div class="hero-content">
     <h2 class="hero-title">Dead Account</h2>
     <p class="hero-description">
@@ -163,7 +171,7 @@ h1 {
     <button class="arrow-btn" id="prevBtn">&#10094;</button>
   </div>
 </div>
-
+</div>
 
   
   <div class="image-gallery">
