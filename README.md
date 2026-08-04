@@ -26,7 +26,7 @@
 <body>
   <h1>JUJUTSU KAISEN</h1>
   <div class="image-gallery">
-  <img src="download(3).jpg" alt="Picture 1">
+  <img src="download (3).jpg" alt="Picture 1">
   </div>
 </body>
 </html>
