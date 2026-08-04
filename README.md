@@ -55,8 +55,6 @@ h1 {
   position: relative;
   width: 100%;
   min-height: 450px;
-  background-color: #121319;
-  color: #ffffff;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -92,15 +90,6 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-hero-image-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(to right, #121319, transparent);
 }
 .slider-arrows {
   position: absolute;
@@ -174,8 +163,6 @@ hero-image-container::before {
     <button class="arrow-btn" id="prevBtn">&#10094;</button>
   </div>
 </div>
- <script src="script.js"></script>
-
 
 
   
@@ -193,5 +180,8 @@ hero-image-container::before {
   <img src="Maomao.jpg" alt="Picture 4">
     </div>
   </div>
+   <script src="script.js"></script>
+
+
 </body>
 </html>
