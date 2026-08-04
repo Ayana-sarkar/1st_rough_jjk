@@ -45,15 +45,119 @@ h1 {
   /* Animates scale changes smoothly over 0.4 seconds */
   transition: transform 0.4s ease, filter 0.4s ease; 
    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+   cursor: pointer;     /* Changes cursor to a pointing hand on hover */
  }
     .img-wrapper:hover img {
   transform: scale(1.04);  /* Zooms in by 8% (adjust scale value as desired) */
   filter: brightness(1.20); /* Optional: Slightly brightens the image on hover */
+    }
+    .hero-slider {
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+  background-color: #121319;
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 12px;
 }
+    .hero-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+    .hero-content {
+  flex: 1;
+  padding: 40px;
+  z-index: 2; /* Keeps text above the background */
+  max-width: 500px;
+}
+    .spotlight-tag {
+  color: #ffdd95;
+  font-weight: bold;
+  font-size: 14px;
+}
+    .hero-title {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+    .hero-description {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+    .hero-image-container {
+  flex: 1.2;
+  position: relative;
+  height: 100%;
+}
+.hero-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+hero-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, #121319, transparent);
+}
+.slider-arrows {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 3;
+}
+.arrow-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+.arrow-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
   </style>
 </head>
-<body>
+<body> 
   <h1>JUJUTSU KAISEN</h1>
+  <div class="hero-slider">
+  <div class="hero-card">
+  <div class="hero-content">
+    <span class="spotlight-tag">#3 Spotlight</span>
+    <h1 class="hero-title">Dead Account</h1>
+    <p class="hero-description">
+        Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
+      </p>
+    <div class="hero-image-container">
+      <img src="your-banner-image.jpg" alt="Dead Account Banner">
+    </div>
+    <div class="slider-arrows">
+    <button class="arrow-btn" id="nextBtn">&#10095;</button>
+    <button class="arrow-btn" id="prevBtn">&#10094;</button>
+  </div>
+</div>
+
+
+
+  
   <div class="image-gallery">
     <div class="img-wrapper">
   <img src="download (3).jpg" alt="Picture 1">
