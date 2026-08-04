@@ -147,7 +147,35 @@ hero-image-container::before {
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
       </p>
     <div class="hero-image-container">
-      <img src="your-banner-image.jpg" alt="Dead Account Banner">
+      <img src="Mao Mao.jpg" alt="Dead Account Banner">
+    </div>
+    <div class="slider-arrows">
+    <button class="arrow-btn" id="nextBtn">&#10095;</button>
+    <button class="arrow-btn" id="prevBtn">&#10094;</button>
+  </div>
+    <div class="hero-card">
+  <div class="hero-content">
+    <span class="spotlight-tag">#3 Spotlight</span>
+    <h1 class="hero-title">Dead Account</h1>
+    <p class="hero-description">
+        Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
+      </p>
+    <div class="hero-image-container">
+      <img src="The Apothecary Diaries.jpg" alt="Dead Account Banner">
+    </div>
+    <div class="slider-arrows">
+    <button class="arrow-btn" id="nextBtn">&#10095;</button>
+    <button class="arrow-btn" id="prevBtn">&#10094;</button>
+  </div>
+    <div class="hero-card">
+  <div class="hero-content">
+    <span class="spotlight-tag">#3 Spotlight</span>
+    <h1 class="hero-title">Dead Account</h1>
+    <p class="hero-description">
+        Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
+      </p>
+    <div class="hero-image-container">
+      <img src="download (4).jpg" alt="Dead Account Banner">
     </div>
     <div class="slider-arrows">
     <button class="arrow-btn" id="nextBtn">&#10095;</button>
@@ -172,5 +200,6 @@ hero-image-container::before {
   <img src="Maomao.jpg" alt="Picture 4">
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
