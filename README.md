@@ -73,12 +73,7 @@ h1 {
   z-index: 2; /* Keeps text above the background */
   max-width: 500px;
 }
-    .spotlight-tag {
-  color: #ffdd95;
-  font-weight: bold;
-  font-size: 14px;
-}
-    .hero-title {
+.hero-title {
   font-size: 2.5rem;
   margin: 10px 0;
 }
@@ -141,12 +136,12 @@ hero-image-container::before {
   <div class="hero-slider">
   <div class="hero-card">
   <div class="hero-content">
-    <h1 class="hero-title">Dead Account</h1>
+    <h2 class="hero-title">MMM</h2>
     <p class="hero-description">
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
       </p>
     <div class="hero-image-container">
-      <img src="Mao Mao.jpg" alt="Dead Account Banner">
+      <img src="Mao Mao.jpg" alt="MMM">
     </div>
     <div class="slider-arrows">
     <button class="arrow-btn" id="nextBtn">&#10095;</button>
@@ -154,12 +149,12 @@ hero-image-container::before {
   </div>
     <div class="hero-card">
   <div class="hero-content">
-    <h1 class="hero-title">Dead Account</h1>
+    <h2 class="hero-title">NNN</h2>
     <p class="hero-description">
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
       </p>
     <div class="hero-image-container">
-      <img src="The Apothecary Diaries.jpg" alt="Dead Account Banner">
+      <img src="The Apothecary Diaries.jpg" alt="MNNr">
     </div>
     <div class="slider-arrows">
     <button class="arrow-btn" id="nextBtn">&#10095;</button>
@@ -167,7 +162,7 @@ hero-image-container::before {
   </div>
     <div class="hero-card">
   <div class="hero-content">
-    <h1 class="hero-title">Dead Account</h1>
+    <h2 class="hero-title">Dead Account</h2>
     <p class="hero-description">
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
       </p>
