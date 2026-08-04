@@ -141,7 +141,6 @@ hero-image-container::before {
   <div class="hero-slider">
   <div class="hero-card">
   <div class="hero-content">
-    <span class="spotlight-tag">#3 Spotlight</span>
     <h1 class="hero-title">Dead Account</h1>
     <p class="hero-description">
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
@@ -155,7 +154,6 @@ hero-image-container::before {
   </div>
     <div class="hero-card">
   <div class="hero-content">
-    <span class="spotlight-tag">#3 Spotlight</span>
     <h1 class="hero-title">Dead Account</h1>
     <p class="hero-description">
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
@@ -169,7 +167,6 @@ hero-image-container::before {
   </div>
     <div class="hero-card">
   <div class="hero-content">
-    <span class="spotlight-tag">#3 Spotlight</span>
     <h1 class="hero-title">Dead Account</h1>
     <p class="hero-description">
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
@@ -182,6 +179,7 @@ hero-image-container::before {
     <button class="arrow-btn" id="prevBtn">&#10094;</button>
   </div>
 </div>
+ <script src="script.js"></script>
 
 
 
@@ -200,6 +198,5 @@ hero-image-container::before {
   <img src="Maomao.jpg" alt="Picture 4">
     </div>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
