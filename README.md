@@ -58,6 +58,15 @@ h1 {
     <div class="img-wrapper">
   <img src="download (3).jpg" alt="Picture 1">
     </div>
+    <div class="img-wrapper">
+  <img src="Apothecary Diaries - aesthetic.jpg" alt="Picture 2">
+    </div>
+     <div class="img-wrapper">
+  <img src="Cosplay Costumes, Cosplay Shoes, Cosplay Wigs Latest & Greatest - CosplayClass_.jpg" alt="Picture 3">
+    </div>
+     <div class="img-wrapper">
+  <img src="Maomao.jpg" alt="Picture 4">
+    </div>
   </div>
 </body>
 </html>
