@@ -1,5 +1,3 @@
-# 1st_rough_jjk
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -28,7 +26,7 @@
 <body>
   <h1>JUJUTSU KAISEN</h1>
   <div class="image-gallery">
-  <img src="download(3).jpg" alt="Data Visualization" class="box-image">
+  <img src="download(3).jpg" alt="Picture 1" >
   </div>
 </body>
 </html>
