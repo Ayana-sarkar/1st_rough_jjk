@@ -64,6 +64,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
   height: 100%;
 }
@@ -71,22 +72,28 @@ h1 {
   flex: 1;
   padding: 40px;
   z-index: 2; /* Keeps text above the background */
-  max-width: 500px;
+      max-width: 50%;
+      z-index: 2;
+      color: #ffffff;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
 }
 .hero-title {
   font-size: 2.5rem;
   margin: 10px 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
     .hero-description {
-  color: #ccc;
+  color: green;
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 25px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
     .hero-image-container {
   flex: 1;
-  position: relative;
   height: 100%;
+  justify-content: center;
+      z-index: 1;
 }
 .hero-image-container img {
   width: 100%;
