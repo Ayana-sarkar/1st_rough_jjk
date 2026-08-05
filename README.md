@@ -75,7 +75,7 @@ h1 {
       max-width: 50%;
       z-index: 2;
       color: #ffffff;
-      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+      background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
 }
 .hero-title {
   font-size: 2.5rem;
@@ -92,6 +92,7 @@ h1 {
     .hero-image-container {
   flex: 1;
   height: 100%;
+      position: absolute;
   justify-content: center;
       z-index: 1;
 }
@@ -133,14 +134,14 @@ h1 {
   <h1>JUJUTSU KAISEN</h1>
   <div class="hero-slider">
   <div class="hero-card">
+    <div class="hero-image-container">
+      <img src="Mao Mao.jpg" alt="MMM">
+    </div>
   <div class="hero-content">
     <h2 class="hero-title">MMM</h2>
     <p class="hero-description">
         Always ready for a fight! Destruction for destruction's sake! The online streamer Aoringo is a troll...
       </p>
-    <div class="hero-image-container">
-      <img src="Mao Mao.jpg" alt="MMM">
-    </div>
     <div class="slider-arrows">
     <button class="arrow-btn" id="nextBtn">&#10095;</button>
     <button class="arrow-btn" id="prevBtn">&#10094;</button>
