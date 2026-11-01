@@ -69,11 +69,12 @@ h1 {
   <img src="download (3).jpg" alt="Picture 1">
              </a>
        </div>
-    <a href="destination.html" class="slide-card-link" onclick="triggerSlide(event, this)">
-    <div class="img-wrapper">
+    
+  <div class="img-wrapper">
+  <a href=" https://ayana-sarkar.github.io/2ndmaomao.github.io/">
   <img src="Apothecary Diaries - aesthetic.jpg" alt="Picture 2">
-    </div>
-    </a>
+  </a>
+  </div>
      <div class="img-wrapper">
   <img src="Cosplay Costumes, Cosplay Shoes, Cosplay Wigs Latest & Greatest - CosplayClass_.jpg" alt="Picture 3">
     </div>
