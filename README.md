@@ -41,7 +41,7 @@ h1 {
   overflow: hidden;        /* Clips the zoomed image within its rounded borders */
   border-radius: 12px;     /* Keeps the rounded corners intact during zoom */
   margin-bottom: 15px;     /* Space beneath stacked items */
-    filter: brightness(-1.2); /* Optional: Slightly brightens the image on hover */
+  filter: brightness(0.65); 
  }
  .img-wrapper img {
   width: 100%;
