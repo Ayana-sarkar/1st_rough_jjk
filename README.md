@@ -62,8 +62,9 @@ h1 {
      <a href"https://ayana-sarkar.github.io/JupyterLab3.github.io/">
        <div class="img-wrapper">
   <img src="download (3).jpg" alt="Picture 1">
-    </div>
+         <a href"https://ayana-sarkar.github.io/JupyterLab3.github.io/">
      </a>
+       </div>
     <div class="img-wrapper">
   <img src="Apothecary Diaries - aesthetic.jpg" alt="Picture 2">
     </div>
