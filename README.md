@@ -40,13 +40,13 @@ h1 {
  .img-wrapper {
   overflow: hidden;        /* Clips the zoomed image within its rounded borders */
   border-radius: 12px;     /* Keeps the rounded corners intact during zoom */
-  margin-bottom: 15px;     /* Space beneath stacked items */
-  filter: brightness(0.65); 
+  margin-bottom: 15px;     /* Space beneath stacked items */ 
  }
  .img-wrapper img {
   width: 100%;
   height: auto;
   display: block;
+   filter: brightness(0.65);
   /* Animates scale changes smoothly over 0.4 seconds */
   transition: transform 0.4s ease, filter 0.4s ease; 
    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
@@ -54,7 +54,7 @@ h1 {
  }
     .img-wrapper:hover img {
   transform: scale(1.04);  /* Zooms in by 8% (adjust scale value as desired) */
-  filter: brightness(1.0); /* Optional: Slightly brightens the image on hover */
+  filter: brightness(1); /* Optional: Slightly brightens the image on hover */
     }
 
 }
