@@ -55,8 +55,46 @@ h1 {
   transform: scale(1.04);  /* Zooms in by 8% (adjust scale value as desired) */
   filter: brightness(1.20); /* Optional: Slightly brightens the image on hover */
     }
+/* 2nd picture sliding left*/
+   /* Container for the animated card */
+.slide-card-link {
+  display: block;
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: 10;
+}/* from here, 2nd picture sliding left */
+.slide-card-link {
+  display: block;
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: 10;
+}
+.slide-card-link.active {
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px; /* Adjust to desired left-sidebar width */
+  height: 100vh;
+  margin: 0;
+  z-index: 9999;
+  }
+.slide-card-link.active img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* New background state applied to body */
+body.new-bg-active {
+  background-image: url("Mao Mao.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.6s ease-in-out;
+}
+/* Hides other elements on the main page smoothly */
+    body.new-bg-active > *:not(.slide-card-link) {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
 
-
+}
   </style>
 </head>
 <body> 
@@ -68,9 +106,11 @@ h1 {
   <img src="download (3).jpg" alt="Picture 1">
              </a>
        </div>
+    <a href="destination.html" class="slide-card-link" onclick="triggerSlide(event, this)">
     <div class="img-wrapper">
   <img src="Apothecary Diaries - aesthetic.jpg" alt="Picture 2">
     </div>
+    </a>
      <div class="img-wrapper">
   <img src="Cosplay Costumes, Cosplay Shoes, Cosplay Wigs Latest & Greatest - CosplayClass_.jpg" alt="Picture 3">
     </div>
@@ -78,7 +118,20 @@ h1 {
   <img src="Maomao.jpg" alt="Picture 4">
     </div>
   </div>
-   <script src="script.js"></script>
+
+  
+   <script>
+     function triggerSlide(event, element) {
+  event.preventDefault(); // Stop instant page load
+// Slide the picture card to the left margin
+  element.classList.add('active');
+// Swap the background of the page
+  document.body.classList.add('new-bg-active');
+// Wait 600ms for the slide animation to finish before navigating
+  setTimeout(() => {
+    window.location.href = element.href;
+  }, 600);
+}</script>
 
 
 </body>
