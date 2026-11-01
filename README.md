@@ -5,7 +5,11 @@
   <title>My Webpage</title>
   <style>
     body {
-      background-color: skyblue;
+      background-image: url("Royale Green.jpg");
+      background-size: cover;
+      background-position: centre;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       margin: 0;
       font-family: sans-serif;
     }
