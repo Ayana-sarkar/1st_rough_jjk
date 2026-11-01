@@ -46,7 +46,7 @@ h1 {
   width: 100%;
   height: auto;
   display: block;
-   filter: brightness(0.65);
+   filter: brightness(0.55);
   /* Animates scale changes smoothly over 0.4 seconds */
   transition: transform 0.4s ease, filter 0.4s ease; 
    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
@@ -54,7 +54,7 @@ h1 {
  }
     .img-wrapper:hover img {
   transform: scale(1.04);  /* Zooms in by 8% (adjust scale value as desired) */
-  filter: brightness(1); /* Optional: Slightly brightens the image on hover */
+  filter: brightness(0.65); /* Optional: Slightly brightens the image on hover */
     }
 
 }
