@@ -71,7 +71,7 @@ h1 {
        </div>
     
   <div class="img-wrapper">
-  <a href=" https://ayana-sarkar.github.io/2ndmaomao.github.io/">
+  <a href=" https://ayana-sarkar.github.io/ingredients_maomao/">
   <img src="Apothecary Diaries - aesthetic.jpg" alt="Picture 2">
   </a>
   </div>
